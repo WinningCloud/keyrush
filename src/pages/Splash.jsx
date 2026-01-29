@@ -123,7 +123,7 @@ const Splash = () => {
                 onClick={() => navigate('/login')}
                 className="group relative px-12 py-6 bg-white text-black font-black text-xl rounded-2xl transition-all hover:scale-105 active:scale-95 shadow-[0_0_60px_rgba(88,166,255,0.4)] cursor-pointer"
               >
-                INITIALIZE INTERFACE
+                START SPEED TEST
                 <ChevronRight size={24} className="inline ml-2 group-hover:translate-x-1 transition-transform" />
               </button>
               
