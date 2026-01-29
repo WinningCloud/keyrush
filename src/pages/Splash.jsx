@@ -106,7 +106,7 @@ const Splash = () => {
           >
             <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-8 rounded-full border border-primary/30 bg-primary/10 backdrop-blur-md text-xs font-bold tracking-[0.2em] uppercase text-primary">
               <Activity size={14} className="animate-pulse" />
-              Neural Engine v2.0 Live
+              Live typing simulator
             </div>
 
             <h1 className="text-7xl md:text-[10rem] font-black tracking-tighter mb-8 leading-[0.8]">
@@ -217,7 +217,7 @@ const Splash = () => {
           <h2 className="text-5xl md:text-7xl font-black mb-10 tracking-tight leading-none italic">READY TO BREACH THE LIMIT?</h2>
           <button 
             onClick={() => navigate('/login')}
-            className="px-16 py-8 bg-primary text-black font-black text-2xl rounded-3xl hover:scale-110 active:scale-95 transition-all shadow-[0_0_80px_rgba(88,166,255,0.4)] cursor-pointer"
+            className="px-16 py-8 bg-primary text-white font-black text-2xl rounded-3xl hover:scale-110 active:scale-95 transition-all shadow-[0_0_80px_rgba(88,166,255,0.4)] cursor-pointer"
           >
             GET STARTED NOW
           </button>
