@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* This ensures the dark background is applied even before React loads */
+:root {
+  background-color: #0d1117;
+  color: white;
+}
+
+@layer base {
+  html, body, #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* Use flex here to make sure everything centers perfectly */
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+}
